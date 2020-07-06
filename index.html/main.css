@@ -1,0 +1,106 @@
+.center{
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    color: #348DB9;
+}
+
+.groupOfCards{
+    display : flex;
+    align-items: stretch;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+a:visited{
+    color:inherit;
+}
+
+.card{
+    width : 30%;
+    margin-right : 5%;
+    background-color: white;
+}
+
+.card:last-child{
+    margin-right: 0;
+}
+
+.card>a{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.card div{
+    padding: 21px 34px 0;
+    flex: 1 0 auto; 
+}
+
+.card:hover div{
+    background-color: #d5d4d4;
+    
+}
+
+.card h2{
+    color: #2d2d2d;
+    font-size: 36px;
+}
+
+.card p{
+    color: #676767;
+}
+
+.card footer{
+    background-color: #e33e42;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card:hover footer{
+    background-color: #ba1d22;
+}
+
+section{
+    padding : 0 100px; 
+    background-color: rgb(239,239,239,239);
+}
+
+body{
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+#navbar {
+    overflow: hidden;
+    background: black;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 16px
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
